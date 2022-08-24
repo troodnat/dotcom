@@ -1,2 +1,1 @@
-# dotcom
-personal website
+# my dotcom site
