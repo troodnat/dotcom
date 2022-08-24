@@ -1,1 +1,1 @@
-# my dotcom site
+# dotcom
