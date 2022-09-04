@@ -1,5 +1,10 @@
 <template>
-  <h1>tomroodnat.com</h1>
+  <div class="first">
+    <p>tomroodnat.com</p>
+  </div>
+  <div class="second">
+    <h4>info@tomroodnat.com</h4>
+  </div>
 </template>
 
 <script>
@@ -10,12 +15,30 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Libre Barcode 39 Extended", cursive;
+  color: #7d9cb6;
+  background-color: #223f57;
+}
+
+.second {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Muli", sans-serif;
+  background-color: #315b7d;
+  color: #7d9cb6;
+  letter-spacing: 0.3em;
 }
 </style>
